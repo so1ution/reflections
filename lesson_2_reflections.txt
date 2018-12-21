@@ -1,0 +1,23 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: Creates .git directory. To track commits.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: In this area commits can be reviewed and formatted.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: You can add files by one and commiting changes, or add multiple files at once and write in commit message results of youre changes.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: By showing where the new branch starts/ends etc.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: Merging implements changes from secondary branch into main. Because its obvious
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Automerge is quick and simple. If git doesnt merge auto, we fix the conlict, which shown in the file btw, and proceed merging.
